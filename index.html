@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DesignAgency</title>
+	<meta name= "viewport" content= "width=device-width", initial-scale= "1 ">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<nav class="menu" >
+		<div class="one">
+	<h5 class="two"> TECHDESIGN </h5>
+
+		<ul class="list animated slideInDown" id= "check">
+			<li ><a class = "firstfont" href="#">HOME</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Works</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<a href="#" class="mobile"  onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+	</div>
+	</nav>
+
+	<div class="content">
+		<h3>DESIGN . DEVELOPMENT . BRANDING</h3>
+		<h1>CREATIVE AND EXPERIENCED</h1>
+		<h4>WE ARE THE ONE OF THE WORLD'S TOP CREATIVE DESIGN AGENCIES</h4>
+		<button class="buttonone">like share</button>
+		<button class="buttontwo">subscribe</button>
+	</div>
+<script type="text/javascript">
+	function slideshow(){
+		var x= document.getElementById('check');
+		if(x.style.display === "none") {
+			x.style.display= "block";
+			}
+			else{
+				x.style.display = "none";
+			}
+	}
+</script>
+</body>
+</html>
